@@ -37,7 +37,7 @@ It’s the **first app** in my journey to build **100 Emotionally Designed MVPs*
 
 ## 🛠️ Setup Instructions
 
-### 1. Clone the repo
+ 1. Clone the repo
 
 ```
 git clone https://github.com/bharat2005/mizzy-app.git
