@@ -21,8 +21,6 @@ It’s the **first app** in my journey to build **100 Emotionally Designed MVPs*
 
 ## 🖼️ Banner Preview
 
-> *(One image is enough — perfect for mobile-first projects)*
-
 ![Mizzy Banner](./media/Mizzy%20Banner.png)
 
 ---
@@ -39,7 +37,7 @@ It’s the **first app** in my journey to build **100 Emotionally Designed MVPs*
 
 ## 🛠️ Setup Instructions
 
-```bash
+```
 git clone https://github.com/bharat2005/mizzy-app.git
 cd mizzy-app
 npm install
