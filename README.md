@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# ✨ Mizzy — Girly Fashion Shopping App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Mizzy** is a soft-styled shopping MVP focused on girly fashion and accessories.  
+It’s the **first app** in my journey to build **100 Emotionally Designed MVPs** — building real, love-inspired products that feel special.
 
-## Get started
+🎬 [Watch Demo on YouTube](https://youtu.be/zvsqy1Lg3GQ?feature=shared)  
+📱 [Watch Insta Reel](https://www.instagram.com/p/REPLACE_THIS)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🌸 Features
 
-2. Start the app
+- 🛍️ Fashion product catalog (girly-themed)
+- 🔒 Firebase Authentication (email/password)
+- 🔁 Infinite scroll with **TanStack Query**
+- 💖 Optimistic likes & cart actions
+- 💅 Soft UI with subtle animations
+- 🔐 Firestore backend for user & product data
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🖼️ Banner Preview
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+> *(One image is enough — perfect for mobile-first projects)*
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+![Mizzy Banner](./media/Mizzy Banner.png)
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🧠 Tech Stack
+
+- **React Native (Expo)**
+- **Firebase** (Auth, Firestore)
+- **TanStack Query** – Infinite scrolling & optimistic UI
+- **React Native Paper**
+- **Reanimated**, **Expo Tab View**, **Gradient**, **Carousel**
+
+---
+
+## 🛠️ Setup Instructions
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/bharat2005/mizzy-app.git
+cd mizzy-app
+npm install
+npx expo start
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
