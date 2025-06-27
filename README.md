@@ -4,7 +4,7 @@
 It’s the **first app** in my journey to build **100 Emotionally Designed MVPs** — building real, love-inspired products that feel special.
 
 🎬 [Watch Demo on YouTube](https://youtu.be/zvsqy1Lg3GQ?feature=shared)  
-📱 [Watch Insta Reel](https://www.instagram.com/p/REPLACE_THIS)
+📱 [Watch Insta Reel](https://www.instagram.com/reel/DKaMqUmSBT5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 
 ---
 
