@@ -42,19 +42,15 @@ It’s the **first app** in my journey to build **100 Emotionally Designed MVPs*
 git clone https://github.com/bharat2005/mizzy-app.git
 cd mizzy-app
 ```
-
 2. Install dependencies
 ```
 npm install
 ```
-
-3. Configure environment
-  Rename the example file:
+3. Rename the file example.env to .env
+4. Update .env with your own configuration, e.g.:
 ```
-mv example.env .env
-```
-   And update it with your Firebase credentials:
-```
+# Rename this file to ".env" before use
+# Replace XXXX's with your own Firebase config keys
 API_KEY=XXXX
 AUTH_DOMAIN=XXXX
 PROJECT_ID=XXXX
@@ -62,8 +58,7 @@ STORAGE_BUCKET=XXXX
 MESSAGING_SENDER_ID=XXXX
 APP_ID=XXXX
 ```
-
- 4. Run the app 
+ 5. Run the app 
 ```
 npx expo start
 ```
