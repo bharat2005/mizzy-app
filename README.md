@@ -23,7 +23,7 @@ It’s the **first app** in my journey to build **100 Emotionally Designed MVPs*
 
 > *(One image is enough — perfect for mobile-first projects)*
 
-![Mizzy Banner](./media/Mizzy Banner.png)
+![Mizzy Banner](./media/Mizzy%20Banner.png)
 
 ---
 
