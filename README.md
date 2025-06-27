@@ -48,12 +48,13 @@ cd mizzy-app
 npm install
 ```
 
-3. Rename the file example.env to .env
-   
-4. Update .env with your own configuration, e.g.:
+3. Configure environment
+  Rename the example file:
 ```
-# Rename this file to ".env" before use
-# Replace XXXX's with your own Firebase config keys
+mv example.env .env
+```
+   And update it with your Firebase credentials:
+```
 API_KEY=XXXX
 AUTH_DOMAIN=XXXX
 PROJECT_ID=XXXX
@@ -62,10 +63,17 @@ MESSAGING_SENDER_ID=XXXX
 APP_ID=XXXX
 ```
 
- 5. Start the app 
+ 4. Run the app 
 ```
 npx expo start
 ```
+
+---
+
+### ⚠️ Note on Firestore Data
+
+This app uses Firestore to fetch catalog and product feed data.
+If you're running the app locally with your own Firebase project, you'll need to manually seed your Firestore with product/category documents — otherwise, the feed may appear empty.
 
 ---
 
