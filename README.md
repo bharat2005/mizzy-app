@@ -69,10 +69,7 @@ npx expo start
 
 ---
 
-## 📄 License
-
-MIT License  
-Copyright © 2025  
-Built by [Bharat Deshmukh](https://www.linkedin.com/in/bharat-deshmukh-300950315)
+## 📄 License  
+This project is licensed under the [MIT License](./LICENSE).
 
 
