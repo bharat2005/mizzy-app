@@ -44,6 +44,7 @@ git clone https://github.com/bharat2005/mizzy-app.git
 cd mizzy-app
 npm install
 npx expo start
+```
 
 ---
 
