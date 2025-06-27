@@ -1,5 +1,5 @@
 import { View, Text, Alert, Dimensions } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import { Button, HelperText, TextInput } from "react-native-paper";
 import * as Yup from "yup";
 import { useAuth } from "../../../contexts/AuthContextProvider";
@@ -9,6 +9,7 @@ import Colors from "../../../constants/Colors";
 
 const RegForm = () => {
   const { register } = useAuth();
+  const [hidden, setHidden] = useState(false)
   const validation = Yup.object({
     username: Yup.string().required("Required*"),
     email: Yup.string().email("Should be a vlaid email*").required("Required*"),
@@ -93,6 +94,8 @@ const RegForm = () => {
             </HelperText>
 
             <TextInput
+            right={<TextInput.Icon icon={hidden ? 'eye' : 'eye-off'} onPress={()=> setHidden(prev => !prev)} />}
+            secureTextEntry={!hidden}
                mode="outlined"
                       placeholderTextColor='lightgray'
               theme={{

@@ -42,6 +42,7 @@ const MainFlatList = ({scrollhandler}) => {
 
 
 
+
   const alignType = {
     mainCrousal : MainCrousal,
     navigators: NavigationList,
